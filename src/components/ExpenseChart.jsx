@@ -32,7 +32,7 @@ const ExpenseChart = () => {
                     duration: 200
                 }}
                 // para que figuren los porcentajes
-                labels={({datum}) => `${datum.y}$`}
+                labels={({datum}) => `${datum.y}%`}
                 labelComponent={
                     <VictoryLabel
                         angle={45}
